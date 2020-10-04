@@ -25,3 +25,68 @@ img {
   display: block;
   width: 100%;
 }
+
+h1, p, nav {
+  text-align: center;
+}
+
+.rock {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+hr {
+  color: #e2e2e2;
+  max-width: 90%;
+}
+
+h1 {
+  color: #000;
+  font-weight: bolder;
+  padding-top: .5em;
+  font-size: 2rem;
+}
+
+.pp {
+  width: 100%;
+  padding: 1em;
+
+}
+
+h1, .rock {
+  margin: 0;
+}
+
+.nav {
+  font-size: 1.1rem;
+}
+
+.btn {
+  color: #3783a3;
+  padding: .3em;
+}
+
+.chinese {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  max-width: 70%;
+  text-align: center;
+}
+
+.chinesep {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .pp2 {
+    display: block;
+    width: 50%;
+  }
+
+  .pp {
+    display: inline-block;
+  }
+
+}
